@@ -1,0 +1,50 @@
+Finding Insights Visually Now with the dashboard completed, you should be able to use it to analyze SpaceX launch data, and answer the following questions:
+
+    Which site has the largest successful launches?
+	- KSC LC-39A had the highest number at 41.7% of all the total successful launches
+    Which site has the highest launch success rate?
+	- CCAFS SLC-40 has the highest rate of successful launches at 42.9%
+    Which payload range(s) has the highest launch success rate?
+	- The range with the most highest launch success rate is between 2,000kg to 4,000 kg
+    Which payload range(s) has the lowest launch success rate?
+	- The range with the lowest launch success rate is the 8,000kg to 10,000kg range.
+    Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest launch success rate?
+	- The booster with the highest success rate is FT.
+
+
+Executive Summary – Methodologies
+- Data Collection: IBM coursework datasets; SpaceX static figures
+- Analysis: Machine learning models, SQL queries, and visualization to identify trends
+- Validation: Train/test split with accuracy scoring to confirm model performance
+- Implementation: Decision Tree model applied to launch data, achieving 87.5% accuracy in predicting launch success
+
+
+- Forecast Reliability: Model performance indicates a strong ability to predict launch success
+- Key Insight: Historical launch patterns align with model predictions
+- Business Value: Provides confidence in assessing upcoming SpaceX launches
+- Recommendation: Adopt the model as a decision-support tool, refining with new data
+
+
+Adopt the result as a decision-support resource, refining with new data and applying it to planning activities such as risk management, readiness checks, etc.
+
+
+SpaceY, a new aerospace company founded to compete with SpaceX, seeks to understand the operational strategies of its rival. SpaceX, led by billionaire industrialist Allon Musk, has pioneered the reuse of rocket first stages, significantly reducing launch costs and increasing competitiveness. To gain insights into this practice, SpaceY commissioned an analysis using publicly available SpaceX launch data.
+
+
+1.	Model Building and Evaluation:
+Results:
+- Forecast Reliability: Model performance indicates a strong ability to predict launch success
+- Key Insight: Historical launch patterns align with model predictions consistently that can be leveraged for forecasting
+- Business Value: Provides confidence in launch readiness decisions and supports risk and resource management strategies.
+- Recommendation: Adopt the model as a decision-support tool, refining with new data
+
+Introduction 
+
+Project Background & Context
+SpaceY, a new aerospace company founded to compete with SpaceX, seeks to understand the operational strategies of its rival. SpaceX, led by billionaire industrialist Allon Musk, has pioneered the reuse of rocket first stages, significantly reducing launch costs and increasing competitiveness. To gain insights into this practice, SpaceY commissioned an analysis using publicly available SpaceX launch data.
+Problem Statement
+Instead of relying on rocket science simulations, the goal of this project is to:
+•	Predict whether SpaceX will successfully reuse the first stage of its rockets.
+•	Assess the reliability of machine learning models in forecasting launch outcomes.
+•	Provide SpaceY with actionable intelligence that can inform strategic planning and competitive positioning.
+
